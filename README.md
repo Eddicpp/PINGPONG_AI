@@ -7,7 +7,7 @@
 
 ---
 
-![Demo](https://via.placeholder.com/800x400/1e3c72/ffffff?text=Pong+AI+Training+Dashboard)
+<img width="1469" height="872" alt="Screenshot 2025-12-19 alle 20 34 01" src="https://github.com/user-attachments/assets/ad156ab1-721f-4037-afa6-f14821312dc3"/>
 
 </div>
 
@@ -144,30 +144,30 @@ The system automatically alternates training every 10,000 frames:
 ### System Overview
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      Flask Server                           │
+┌────────────────────────────────────────────────────────────┐
+│                      Flask Server                          │
 │  ┌──────────────────────────────────────────────────────┐  │
 │  │           Game Loop (Background Task)                │  │
-│  │                                                       │  │
-│  │  ┌────────────┐         ┌────────────┐              │  │
-│  │  │ Left Paddle│         │   Ball AI  │              │  │
-│  │  │    (DQN)   │◄───────►│   (DQN)    │              │  │
-│  │  │  LEARNING  │ Compete │  LEARNING  │              │  │
-│  │  └────────────┘         └────────────┘              │  │
+│  │                                                      │  │
+│  │  ┌────────────┐         ┌────────────┐               │  │
+│  │  │ Left Paddle│         │   Ball AI  │               │  │
+│  │  │    (DQN)   │◄───────►│   (DQN)    │               │  │
+│  │  │  LEARNING  │ Compete │  LEARNING  │               │  │
+│  │  └────────────┘         └────────────┘               │  │
 │  │         │                      │                     │  │
 │  │         │                      │                     │  │
-│  │         │    ┌────────────┐   │                     │  │
-│  │         └───►│Right Paddle│◄──┘                     │  │
+│  │         │    ┌────────────┐   │                      │  │
+│  │         └───►│Right Paddle│◄──┘                      │  │
 │  │              │ (Simple AI)│                          │  │
 │  │              │  Tracking  │                          │  │
 │  │              └────────────┘                          │  │
 │  │                     │                                │  │
 │  │                     ▼                                │  │
-│  │             ┌───────────────┐                       │  │
-│  │             │Physics Engine │                       │  │
-│  │             │  - Bounces    │                       │  │
-│  │             │  - Collisions │                       │  │
-│  │             └───────────────┘                       │  │
+│  │             ┌───────────────┐                        │  │
+│  │             │Physics Engine │                        │  │
+│  │             │  - Bounces    │                        │  │
+│  │             │  - Collisions │                        │  │
+│  │             └───────────────┘                        │  │
 │  └──────────────────────────────────────────────────────┘  │
 │                         │                                  │
 │                 SocketIO (WebSocket)                       │
@@ -294,6 +294,9 @@ The system alternates training between the two DQN agents every 10,000 frames:
 
 ---
 
+https://github.com/user-attachments/assets/08dacea3-c1f1-483b-a745-d134bbbe6a8a
+
+---
 ### Left Paddle AI Learning Objectives
 
 **Challenge**: Catch an intelligent ball that actively tries to evade while competing with a simple tracking paddle on the right.
@@ -1075,13 +1078,6 @@ black app.py brain.py
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
@@ -1095,19 +1091,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
----
-
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/pong-ai-dqn?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/pong-ai-dqn?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/pong-ai-dqn?style=social)
-
----
+- GitHub: [@yourusername](https://github.com/Eddicpp)
+- Email: eduardo.pane04@gmail.com
 
 <div align="center">
 
